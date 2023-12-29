@@ -1,0 +1,9 @@
+{
+  "name": "worker-a",
+  "version": "0.0.0",
+  "private": true,
+  "scripts": {
+    "deploy": "wrangler deploy",
+    "start": "wrangler dev --port 8101"
+  }
+}

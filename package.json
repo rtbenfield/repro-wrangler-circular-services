@@ -1,0 +1,14 @@
+{
+  "name": "repro-wrangler-circular-services",
+  "version": "0.0.0",
+  "workspaces": [
+    "worker-a",
+    "worker-b",
+    "worker-c"
+  ],
+  "devDependencies": {
+    "@cloudflare/workers-types": "^4.20231218.0",
+    "typescript": "^5.3.3",
+    "wrangler": "^3.18.0"
+  }
+}
